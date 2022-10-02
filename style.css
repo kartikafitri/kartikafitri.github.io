@@ -1,0 +1,19 @@
+.table-external {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+.tr-external {
+    border-bottom: 1px solid #ddd;
+    }
+body {
+    background-image: url("langitttt.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-blend-mode:color-burn;
+    background-attachment: scroll;
+    text-align: justify;
+    margin: 50px 300px 75px 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
