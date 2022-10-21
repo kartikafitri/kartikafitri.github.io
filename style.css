@@ -14,5 +14,12 @@ body {
     background-blend-mode:color-burn;
     background-attachment: scroll;
     text-align: justify;
-    margin: 50px 300px 75px 300px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px 0px 0px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+} 
+.image-hero {
+    width: 150px;
+} 
+.image-porto {
+    width: 100%; height: 200px; object-fit: cover; 
+} 

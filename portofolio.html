@@ -1,82 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        .bar ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            }
-  
-        .bar li {
-            float: left;
-            }
-  
-        .bar li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            }
-  
-        .bar li a:hover {
-            background-color: #111;
-            }
-        </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio Kartika</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
-    <div class="bar">
-        <ul>
-            <li><a href="portofolio.html">Portofolio</a></li>
-            <li><a href="#">Biodata</a></li>
+    <nav class="navbar navbar-expand-lg bg-light shadow p-2 mb-5 bg-body rounded sticky-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav"> 
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="index.html">Biodata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold " href="#">Portofolio</a>
+              </li>
             </ul>
-    </div> 
+          </div>
+        </div>
+    </nav> 
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-atas fs-5 fw-semibold mb-1">
+              Portofolio Kartika Fitri 
+            </div>
+      </div> 
 
-    <h1 title="Header 1">Portofolio Kartika Fitri</h1>
-    <p>Berikut adalah portofolio pribadi saya selama berkuliah <p>
-    <table style="width:60%">
-        <tr>
-            <th>Tahun</th>
-            <th>Jenis Kegiatan</th>
-            <th>Bukti Kegiatan</th>
-        </tr>
-        <tr>
-            <td align="center">2021-Sekarang </td>
-            <td><ol>
-                <li>Volunteer Digital Campaign Pengamat Fest (Creative Economy)</li>
-                <li>Volunteer Digital Campaign Self Boosting oleh Bloomin dan Puan Bisa</li>
-                <li>Volunteer "Care to share" oleh Tabula id</li>
-                <li>Staff Organisasi Lembaga Pecinta Bisnis</li>
-                <li>Sekretaris Divisi Eksternal Organisasi Forum Mahasiswa Blitar Universitas Negeri Malang </li>
-                <li>Formablium Mengabdi (kegiatan volunteer di SD di Blitar)</li>
-                <li>Panitia Webinar Meet Up bareng MABA Formablium 2021</li>
-                <li>Panitia Education Fair Organisasi Formablium 2021  </li>
-                <li>Pemateri dan sharing session acara Meet Up Bareng MABA Formablium 2022</li>
-                <li>Project Based Intern Virtual Internship Experience di Kompas Growth Center Course Analyst</li>
-                <li>Project Based Intern Virtual Internship Experience di Bank Muamalat Product and Business Development Program</li>
-                <li>Peserta  Studi Independen Bersertifikat Digital Transformasi di SEAL Malang</li>
-                <li>Small bisnis owner rice bowl (kenyangin ricebowl)</li>
-            </ol>
-            </td>
-            <td align="center">
-                <img src="self boosting.jpg" width="100">
-                <br><img src="care to share.jpg" width="100">
-                <br><img src="formablium mengabdi.jpg" width="100">
-                <br><img src="webinar mumbm 21 fmb.jpg" width="100">
-                <br><img src="organisasi fmb.jpg" width="100">
-                <br><img src="pemateri mubm fmb 22.jpg" width="100">
-                <br><img src="course analyst.jpg" width="100">
-                <br><img src="loa seal.jpg" width="100">
-                <br><img src="offline seal 1.jpg" width="100">
-                <br><img src="offline seal 2.jpg" width="100">
-                <br><img src="presentasi offline.jpg" width="100">
-                <br><img src="kelompok seal.jpg" width="100">
-                <br><img src="ricebowl.jpg" width="100"> 
+      <div class="album py-5 bg-light">
+        <div class="container">
+      
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 bg-secondary"> 
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="image-porto bd-placeholder-img card-img-top" src="self boosting.jpg" role="img" aria-label="Placeholder: Thumbnail">
+      
+                <div class="card-body">
+                  <p class="card-text">Volunteer digital campaign "Self Boosting" oleh Bloomin dan Puan Bisa</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">2021</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="image-porto bd-placeholder-img card-img-top" src="care to share.jpg" role="img" aria-label="Placeholder: Thumbnail">
         
+                  <div class="card-body">
+                    <p class="card-text">Volunteer "Care to Share" oleh Tabula.id</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-muted">2021</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="image-porto bd-placeholder-img card-img-top" src="organisasi fmb 1.jpg" role="img" aria-label="Placeholder: Thumbnail">
+                  <div class="card-body">
+                    <p class="card-text">Sekretaris Divisi Eksternal Forum Mahasiswa Blitar UM (Formablium)</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-muted">2021-Sekarang</small> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="image-porto bd-placeholder-img card-img-top" src="formablium mengabdi.jpg" role="img" aria-label="Placeholder: Thumbnail">
+        
+                  <div class="card-body">
+                    <p class="card-text">Panitia dan Volunteer di salah satu sekolah dasar di Blitar.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-muted">2021</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="image-porto bd-placeholder-img card-img-top" src="webinar mubm 21 fmb.jpg" role="img" aria-label="Placeholder: Thumbnail">
+        
+                  <div class="card-body">
+                    <p class="card-text">Panitia Webinar Meet Up Bareng Maba Formablium 2021.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-muted">2021</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="image-porto bd-placeholder-img card-img-top" src="jago ngomong 1.jpg" role="img" aria-label="Placeholder: Thumbnail">
+        
+                  <div class="card-body"> 
+                    <p class="card-text">Pemateri dan Sharing Session acara Meet Up Bareng Maba Formablium 2022.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-muted">2022</small>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="image-porto bd-placeholder-img card-img-top" src="course analyst.jpg" role="img" aria-label="Placeholder: Thumbnail">
+        
+                  <div class="card-body">
+                    <p class="card-text">Project Based Intern Virtual Internship Experience di Kompas Growth Center sebagai Course Analyst .</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-muted">2022</small>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="image-porto bd-placeholder-img card-img-top" src="offline seal 1 1.jpg" role="img" aria-label="Placeholder: Thumbnail">
+        
+                  <div class="card-body">
+                    <p class="card-text">Peserta Studi Independen Bersertifikat di Social Economic Aceelerator Lab Malang .</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-muted">2022</small>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+
+             <div class="col">
+          <div class="card shadow-sm">
+            <img class="image-porto bd-placeholder-img card-img-top" src="ricebowl 1.jpg" role="img" aria-label="Placeholder: Thumbnail">
+  
+            <div class="card-body">
+              <p class="card-text">Small Business Owner rice bowl (kenyangin ricebowl)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">2021-2022</small>
+              </div>
+            </div>
+          </div>
+        </div>
+   </div>
+  </div>
+  </div>
+</main> 
+
+<div class="container mb-3">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        Kontak Saya
+        <li class="ms-3"><a class="text-muted" href="https://t.me/kartikaafitrii"><i class="bi bi-telegram"></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://instagram.com/kartikaf_"><i class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/kartika-fitri"><i class="bi bi-linkedin"></i></a></li> 
+      </ul> 
+    </footer>
+  </div> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+   
 </body>
-</html>
+</html> 
 
